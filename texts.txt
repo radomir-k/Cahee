@@ -1,0 +1,21 @@
+<h1>Blog</h1>
+<h2>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</h2>
+-----------------------------------------------------------
+
+<h3>20NOV</h3>
+<h4>Green Smoothies: Too Much of a Good Thing?</h4>
+<h5>By Auskteez - 2 hours ago</h5>
+-----------------------------------------------------------
+
+<h3>14NOV</h3>
+<h4>Growing Food and a “Thirst” for Innovation</h4>
+<h5>By Auskteez - 3 hours ago</h5>
+----------------------------------------------------------
+
+<h3>10NOV</h3>
+<h4>Pesticides & Food: What You Need to Know</h4>
+<h5>By Auskteez - 6 hours ago</h5>
+----------------------------------------------------------
+
+<h6>VIEW MORE</h6>
+----------------------------------------------------------
