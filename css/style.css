@@ -1,62 +1,54 @@
-@keyframes spinnn {
-    from {transform: rotateY(0deg);}
-    to {transform: rotateY(360deg);}
-}
 
-* {
-    margin: 0;
-    padding: 0;
-    font-size: 0;
-    font-family: 'Raleway', sans-serif;
-    color: rgba(255, 255, 255, 1)
-}
-
-.root_box {
+.page {
     display: flex;
-    justify-content: center;
-    position: relative;
-    width: 100vw;
-    height: 100vh;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-color: rgba(176, 124, 247, 1);
+    justify-content: flex-start;
+    width: 100vw;
+    min-height: 100vh;
 }
 
-.header_box {
-    width: 37%;
-    height: auto;
-    position: absolute;
-    top: 100px;
+.-main-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: relative;
+    width: 1500px;
+    min-height: 100vh;
+    border-left: 4px solid rgba(255, 255, 255, .7);
+    border-right: 4px solid rgba(255, 255, 255, .7);
 }
 
-.header_box h1 {
-    font-size: 60pt;
-    font-weight: 800;
-    text-align: center;
-    margin-bottom: 30px;
+.-header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 170px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.header_box h2 {
-    margin-bottom: 15px;
-    font-size: 14pt;
-    font-weight: 300;
-    text-align: center;
-    line-height: 1.5;
+.-header--blog {
+    width: 40%;
 }
 
-.content_box {
-    display: inline-flex;
+.-blog-content-case {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: center;
-    position: absolute;
-    top: 330px;
-    width: fit-content;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0);
 }
 
-.item_box {
+.-blog-item {
     display: flex;
-    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
     width: 370px;
     height: 310px;
     margin-left: 1.5%;
@@ -64,45 +56,29 @@
     box-shadow: 3px 3px 7px 3px rgba(30, 30, 30, 0.3);
 }
 
-.item_box_text {
-    display: block;
-    position: absolute;
-    left: 25px;
-    bottom: 25px;
-    text-align: left;
-    line-height: 1.2;
-}
-
-.item_box_text h4 {
-    font-size: 16pt;
-    font-weight: 700;
-}
-
-.item_box_text h5 {
-    font-size: 9pt;
-    font-weight: 400;
-}
-
-.item_box_date {
-    display: block;
-    position: absolute;
-    top: 25px;
-    left: 25px;
-    box-sizing: border-box;
-    font-weight: 800;
-    text-align: center;
-    line-height: .7;
-    padding: 10px;
-    background-color: rgba(20, 20, 20, .4);
+.-blog-date-case {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
-.item_box_date h3 {
-    font-size: 28pt;
-}
-
-.item_box_date p {
-    font-size: 17pt;
+.-blog-text-case {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 8px;
+    margin-top: 135px;
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .footer_box {
@@ -134,9 +110,3 @@
     border-radius: 10px;
 }
 
-.item_box:hover {
-    animation-name: spinnn;
-    animation-duration: 1000ms;
-    animation-iteration-count: infinite;
-    animation-timing-function:cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
