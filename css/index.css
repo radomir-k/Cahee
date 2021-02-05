@@ -1,0 +1,60 @@
+
+@import '/css/reset.css';
+@import '/css//greed.css';
+@import '/css/default.css';
+
+
+.-navigation-container {
+    display: flex;
+    max-width: 100%;
+    min-width: 7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.-navigation-menu {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    list-style: none;
+  }
+
+  .-navigation-item {
+    display: flex;
+    padding: .5rem 1rem;
+  }
+
+  .-navigation-switch {
+    display: flex;
+    padding: 0rem .35rem;
+    border: .15rem solid rgb(255 95 50 /1);
+    border-radius: .3rem;
+}
+
+  .-navigation-item:hover,
+  .-navigation-item:focus {
+    border-top: .15rem solid rgb(255 95 50 /1);
+    border-left: .15rem solid rgb(255 95 50 /0);
+    border-right: .15rem solid rgb(255 95 50 /0);
+    border-bottom: .15rem solid rgb(255 95 50 /0);
+    border-radius: .3rem;
+  }
+
+
+
+
+
+/* @media (max-width: 767px) {
+    .-navigation-menu {
+      flex-flow: column wrap;
+      justify-content: space-around;
+      padding: 0;
+    }
+
+    .-navigation-item {
+      border-top: 1px solid rgba(255, 255, 255, 0.4);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      text-align: center;
+    }
+} */

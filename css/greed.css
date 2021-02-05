@@ -1,0 +1,81 @@
+.column-1x1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1rem;
+}
+
+.column-1x2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: calc(100% / 2);
+    gap: 1rem;
+}
+
+.column-1x3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+    gap: 1rem;
+}
+
+.column-2x3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: calc((100% / 3)*2);
+    gap: 1rem;
+}
+
+.column-1x4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: calc(100% / 4);
+    gap: 1rem;
+}
+
+.column-3x4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: calc((100% / 4)*3);
+    gap: 1rem;
+}
+
+.column-1x5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: calc(100% / 5);
+    gap: 1rem;
+}
+
+.column-2x5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: calc((100% / 5)*2);
+    gap: 1rem;
+}
+
+.column-3x5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: calc((100% / 5)*3);
+    gap: 1rem;
+}
+
+.column-4x5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: calc((100% / 5)*4);
+    gap: 1rem;
+}
+
+

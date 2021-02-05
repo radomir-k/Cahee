@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700;900&display=swap');
+
+/*--- Page Container --------------------------------------------------------------*/
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.-main-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+    min-height: 100vh;
+    border-left: .2rem solid rgb(255 255 255 /.7);
+    border-right: .2rem solid rgb(255 255 255 /.7);
+}
+
+.-gap-reset {gap: 0;}
+.-glue-bottom {margin-top: auto;}
+
+/*--- Align Description -----------------------------------------------------------*/
+
+.-align-lt {align-items: flex-start; justify-content: flex-start;}
+.-align-lc {align-items: center; justify-content: flex-start;}
+.-align-ld {align-items: flex-end; justify-content: flex-start;}
+.-align-rt {align-items: flex-start; justify-content: flex-end;}
+.-align-rc {align-items: center; justify-content: flex-end;}
+.-align-rd {align-items: flex-end; justify-content: flex-end;}
+.-align-ct {align-items: flex-start; justify-content: center;}
+.-align-cc {align-items: center; justify-content: center;}
+.-align-cd {align-items: center; justify-content: flex-end;}
+
+
+/*--- Fonts Description -----------------------------------------------------------*/
+
+.-font-type--main {font-family: 'Raleway', sans-serif;}
+.-font--thin {font-weight: 300;}
+.-font--regular {font-weight: 500;}
+.-font--bold {font-weight: 700;}
+.-font--havi {font-weight: 900;}
+.-font--uppercase {text-transform: uppercase};
+.-text-align--left {text-align: left;}
+.-text-align--center {text-align: center;}
+.-text-align--right {text-align: right;}
+.-text--small {font-size: 0.8rem; line-height: 1.2;}
+.-text--normal {font-size: 1rem; line-height: 1.3;}
+.-text--big {font-size: 4rem; line-height: 1.2;}
+.-text--great {font-size: 5rem; line-height: 1.2;}
+.-text--switch {font-size: 3rem; line-height: .8;}
+.-text--date-day {font-size: 2rem; line-height: 1;}
+.-text--date-month {font-size: 1.2rem; line-height: 1.3;}
+.-text--button {font-size: 1rem; line-height: 1;}
+.-text--menu {font-size: 0.85rem; line-height: 1.2;}
+.-text-color--light {color: rgb(255 255 255 /1);}
+.-text-color--dark {color: rgb(38 38 38 /1);}
+.-text-color--red {color: rgb(255 43 88 /1);}
+.-text--link {text-decoration: none;}
+
+
+/*--- Background Color Description -------------------------------------------------*/
+
+.-fone-color--dark {background-color: rgb(40 40 40 /1);}
+.-fone-color--dark-translucent {background-color: rgb(40 40 40 /.5);}
+.-fone-color--light {background-color: rgb(250 250 250 /1);}
+.-fone-color--light-translucent {background-color: rgb(250 250 250 /.4);}
+.-fone-color--yellow {background-color: rgb(255 235 45 /1);}
+.-fone-color--violet {background-color: rgb(175 125 250 /1);}
+.-fone-color--blue {background-color: rgb(110 190 250 /1);}
+.-fone-color--green {background-color: rgb(150 185 45 /1);}
+.-fone-color--lightgreen {background-color: rgb(0 180 180 /1);}
+.-fone-color--lightgreen-translucent {background-color: rgb(0 180 180 /.4);}
+.-fone-color--grey {background-color: rgb(90 130 160 /1);}
+.-fone-color--orange {background-color: rgb(255 95 50 /1);}
+.-fone-color--red {background-color: rgb(250 45 60 /1);}
+.-fone-color--neutral {background-color: rgb(210 210 230 /1);}
+
+
+/*--- Logo Description -------------------------------------------------------------*/
+
+.-logo--small {
+    display: flex;
+    width: 2.4rem;
+    height: 1.6rem;
+    fill: rgb(255 255 255 /1);
+}
+
+.-logo--big {
+    display: flex;
+    width: 5.3rem;
+    height: 2.1rem;
+    fill: rgb(40 40 40 /1);
+}
+
+
+/*--- Image Description -------------------------------------------------------------*/
+
+.-blog-item-fone--kivi {background-image: url(/images/kiwi.webp);}
+.-blog-item-fone--peas {background-image: url(/images/peas.webp);}
+.-blog-item-fone--raspbery {background-image: url(/images/raspbery.webp);}
+.-contact-container--fone {background-image: url(/images/footer-fone.webp);}
+
+
+/*--- Button Description -------------------------------------------------------------*/
+
+.-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    border-radius: .3rem;
+    padding: .8rem 2rem .8rem 2rem;
+    box-shadow: 0px 0px 5px 2px rgb(30 30 30 /.4);
+    transition: all 0.4s ease;
+}
+
+.-button:hover {
+    filter: brightness(80%);
+    transition: all 0.4s ease;
+}
+
+.-button:active {
+    box-shadow: 0px 0px 5px 2px rgb(30 30 30 /.4) inset;
+}
+
+.-shadow--dark {box-shadow: 0px 0px 5px 2px rgb(30 30 30 /.4);}
+.-shadow--light {box-shadow: 0px 0px 5px 2px rgb(250 250 250 /.4);}

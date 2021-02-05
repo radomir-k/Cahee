@@ -1,0 +1,70 @@
+@import '/css/reset.css';
+@import '/css//greed.css';
+@import '/css/default.css';
+
+
+.-header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.-contact-header--width {
+    width: 35%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.-contact-footer {
+    display: flex;
+    max-width: 100%;
+    min-width: 7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.-contact-info_box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    min-width: 30%;
+    border: none;
+    border-radius: .3rem;
+}
+
+.-contact-field {
+    min-width: 100%;
+    max-width: 25rem;
+    min-height: 3.5rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    border: none;
+    border-radius: .3rem;
+}
+
+.-contact-field--big {
+    resize: none;
+    height: 15rem;
+    padding-top: 1rem;
+    border: none;
+    border-radius: .3rem;
+}
+
+input::placeholder {
+    color:rgba(255, 255, 255, 1);
+}
+
+textarea::placeholder {
+    color:rgba(255, 255, 255, 1);
+}
+
+.-contact-field:focus {
+    background-color: rgba(0, 180, 180, 1);
+    border-left: 4px solid rgb(30, 100, 110);
+}
